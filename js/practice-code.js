@@ -106,3 +106,46 @@ function convertToInteger(str) {
     return parseInt(str, 2);
 }
 
+// Use the Conditional (Ternary) Operator
+function checkEqual(a, b) {
+    return a === b ? "Equal" : "Not Equal";
+}
+
+// Use Multiple Conditional (Ternary) Operators
+function checkSign(num) {
+    return (num > 0) ? "positive" : (num < 0) ? "negative" : "zero";
+}
+
+// Use Recursion to Create a Countdown
+function countdown(n, newArr = []) {
+    if (n <= 0) {
+        return newArr;
+    }
+    newArr.push(n);
+    return countdown(n-1, newArr);
+}
+
+// Use Recursion to Create a Range of Numbers
+    // PFM
+    function rangeOfNumbers(startNum, endNum) {
+        return startNum == endNum ? [startNum] : [startNum, ... rangeOfNumbers(startNum+1, endNum)];
+    }
+    // Other hint
+    function rangeOfNumbers2(startNum, endNum) {
+        if (endNum < startNum) {
+            return [];
+        } else {
+            const numbers = rangeOfNumbers(startNum, endNum - 1);
+            numbers.push(endNum);
+            return numbers;
+        }
+    }
+
+// Replace Loops using Recursion
+    function sum(arr, n) {
+        if(n <= 0) {
+            return 0;
+        } else {
+            return sum(arr, n - 1) + arr[n - 1];
+        }
+    }
