@@ -40,3 +40,10 @@ function freezeObj() {
     }
     return MATH_CONSTANTS.PI;
 }
+
+// Use Arrow Functions to Write Concise Anonymous Functions
+//// Original code (needing to be refactored w/ arrow function notation)
+// var magic = function() {
+//   return new Date();
+// };
+const magic = () => new Date();
