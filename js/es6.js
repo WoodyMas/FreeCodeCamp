@@ -64,3 +64,13 @@ console.log(myConcat("Good", " Fellas"));;
     // const increment = (number, value) => number + value;
     // Only change code above this line
 const increment = (number, value = 1) => number + value;
+
+// Use the Rest Parameter with Function Parameters
+//// Original code
+    // const sum = (x, y, z) => {
+    //   const args = [x, y, z];
+    //   return args.reduce((a, b) => a + b, 0);
+    // }
+const sum = (...args) => {
+    return args.reduce((a, b) => a + b, 0);
+}
