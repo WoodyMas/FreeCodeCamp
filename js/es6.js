@@ -1,52 +1,62 @@
+// =================================================== Problem 1 =======================================================
+
 // Compare Scopes of the var and let Keywords
-function checkScope() {
-    // i is within the function's scope
-    let i = 'function scope';
-    if (true) {
-        // but this i is in the if's scope, so we can declare it because it's not the same 'i'
-        let i = 'block scope';
-        console.log('Block scope i is: ', i);
-    }
-    console.log('Function scope i is: ', i);
-    return i;
-}
+// function checkScope() {
+//     // i is within the function's scope
+//     let i = 'function scope';
+//     if (true) {
+//         // but this i is in the if's scope, so we can declare it because it's not the same 'i'
+//         let i = 'block scope';
+//         console.log('Block scope i is: ', i);
+//     }
+//     console.log('Function scope i is: ', i);
+//     return i;
+// }
+
+// =================================================== Problem 2 =======================================================
 
 // Mutate an Array Declared with const
-const s = [5, 7, 2];
-function editInPlace() {
-    // Only change code below this line
+// const s = [5, 7, 2];
+// function editInPlace() {
+//     // Only change code below this line
+//
+//     // Using s = [2, 5, 7] would be invalid
+//     // s[0] = 2;
+//     // s[1] = 5;
+//     // s[2] = 7;
+//
+//     // Only change code above this line
+// }
 
-    // Using s = [2, 5, 7] would be invalid
-    s[0] = 2;
-    s[1] = 5;
-    s[2] = 7;
-
-    // Only change code above this line
-}
+// =================================================== Problem 3 =======================================================
 
 // Prevent Object Mutation
-function freezeObj() {
-    const MATH_CONSTANTS = {
-        PI: 3.14
-    };
-    // Only change code below this line
-    Object.freeze(MATH_CONSTANTS)
+// function freezeObj() {
+//     const MATH_CONSTANTS = {
+//         PI: 3.14
+//     };
+//     // Only change code below this line
+//     Object.freeze(MATH_CONSTANTS)
+//
+//     // Only change code above this line
+//     try {
+//         MATH_CONSTANTS.PI = 99;
+//     } catch(ex) {
+//         console.log(ex);
+//     }
+//     return MATH_CONSTANTS.PI;
+// }
 
-    // Only change code above this line
-    try {
-        MATH_CONSTANTS.PI = 99;
-    } catch(ex) {
-        console.log(ex);
-    }
-    return MATH_CONSTANTS.PI;
-}
+// =================================================== Problem 4 =======================================================
 
 // Use Arrow Functions to Write Concise Anonymous Functions
 //// Original code (needing to be refactored w/ arrow function notation)
 // var magic = function() {
 //   return new Date();
 // };
-const magic = () => new Date();
+// const magic = () => new Date();
+
+// =================================================== Problem 5 =======================================================
 
 // Write Arrow Functions with Parameters
 //// Original code
@@ -54,16 +64,21 @@ const magic = () => new Date();
 //   return arr1.concat(arr2);
 // };
 
-// console.log(myConcat([1, 2], [3, 4, 5]));
-const myConcat = ((arr1, arr2) => arr1.concat(arr2));
-console.log(myConcat("Good", " Fellas"));;
+
+// // console.log(myConcat([1, 2], [3, 4, 5]));
+// const myConcat = ((arr1, arr2) => arr1.concat(arr2));
+// console.log(myConcat("Good", " Fellas"));;
+
+// =================================================== Problem 6 =======================================================
 
 // Set Default Parameters for Your Functions
 //// Original code
     // Only change code below this line
     // const increment = (number, value) => number + value;
     // Only change code above this line
-const increment = (number, value = 1) => number + value;
+// const increment = (number, value = 1) => number + value;
+
+// =================================================== Problem 7 =======================================================
 
 // Use the Rest Parameter with Function Parameters
 //// Original code
@@ -71,9 +86,11 @@ const increment = (number, value = 1) => number + value;
     //   const args = [x, y, z];
     //   return args.reduce((a, b) => a + b, 0);
     // }
-const sum = (...args) => {
-    return args.reduce((a, b) => a + b, 0);
-}
+// const sum = (...args) => {
+//     return args.reduce((a, b) => a + b, 0);
+// }
+
+// =================================================== Problem 8 =======================================================
 
 // Use the Spread Operator to Evaluate Arrays In-Place
 //// Original code
@@ -83,12 +100,14 @@ const sum = (...args) => {
     // arr2 = [];  // Change this line
 
     // console.log(arr2);
-const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
-let arr2;
+// const arr1 = ['JAN', 'FEB', 'MAR', 'APR', 'MAY'];
+// let arr2;
+//
+// arr2 = [...arr1];  // Change this line
+//
+// console.log(arr2);
 
-arr2 = [...arr1];  // Change this line
-
-console.log(arr2);
+// =================================================== Problem 9 =======================================================
 
 // Use Destructuring Assignment to Extract Values from Objects
 
@@ -118,6 +137,8 @@ console.log(arr2);
 
 // Only change code above this line
 
+// =================================================== Problem 10 ======================================================
+
 // Use Destructuring Assignment to Assign Variables from Objects
     //const HIGH_TEMPERATURES = {
     //   yesterday: 75,
@@ -130,6 +151,8 @@ console.log(arr2);
     // const {today : highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
     //
     // // Only change code above this line
+
+// =================================================== Problem 11 ======================================================
 
 // Use Destructuring Assignment to Assign Variables from Nested Objects
     // const LOCAL_FORECAST = {
@@ -146,18 +169,131 @@ console.log(arr2);
     // // Only change code above this line
 
 
-const LOCAL_FORECAST = {
-    yesterday: { low: 61, high: 75 },
-    today: { low: 64, high: 77 },
-    tomorrow: { low: 68, high: 80 }
-};
-const { today: { low: lowToday, high: highToday } } = LOCAL_FORECAST;
+// const LOCAL_FORECAST = {
+//     yesterday: { low: 61, high: 75 },
+//     today: { low: 64, high: 77 },
+//     tomorrow: { low: 68, high: 80 }
+// };
+// const { today: { low: lowToday, high: highToday } } = LOCAL_FORECAST;
+
+// =================================================== Problem 12 ======================================================
 
 // Use Destructuring Assignment to Assign Variables from Arrays
 //// Original code
     // let a = 8, b = 6;
     // // Only change code below this line
 
-let a = 8, b = 6;
-// Only change code below this line
-[a, b] = [b, a];
+// let a = 8, b = 6;
+// // Only change code below this line
+// [a, b] = [b, a];
+
+// =================================================== Problem 13 ======================================================
+
+// Use Destructuring Assignment with the Rest Parameter to Reassign Array Elements
+//// Original code
+    //const source = [1,2,3,4,5,6,7,8,9,10];
+    // function removeFirstTwo(list) {
+    //   // Only change code below this line
+    //   const arr = list; // Change this line
+    //   // Only change code above this line
+    //   return arr;
+    // }
+    // const arr = removeFirstTwo(source);
+
+//// Solution
+
+// =================================================== Problem 14 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 15 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 16 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 17 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 18 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 19 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 20 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 21 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 22 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 23 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 24 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 25 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 26 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 27 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 28 ======================================================
+
+//// Original code
+
+//// Solution
+
+// =================================================== Problem 29 ======================================================
+
+//// Original code
+
+//// Solution
