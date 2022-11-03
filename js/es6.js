@@ -201,13 +201,37 @@
     // const arr = removeFirstTwo(source);
 
 //// Solution
-const [a, b, ...arr] = list;
+// const [a, b, ...arr] = list;
 
 // =================================================== Problem 14 ======================================================
 
 //// Original code
+    //// const stats = {
+    // //   max: 56.78,
+    // //   standard_deviation: 4.34,
+    // //   median: 34.54,
+    // //   mode: 23.87,
+    // //   min: -0.75,
+    // //   average: 35.85
+    // // };
+    //
+    // // // Only change code below this line
+    // // const half = (stats) => (stats.max + stats.min) / 2.0;
+    // // // Only change code above this line
 
 //// Solution
+    //const stats = {
+    //   max: 56.78,
+    //   standard_deviation: 4.34,
+    //   median: 34.54,
+    //   mode: 23.87,
+    //   min: -0.75,
+    //   average: 35.85
+    // };
+    //
+    // // Only change code below this line
+    // const half = ({max, min}) => (max + min) / 2.0;
+    // // Only change code above this line
 
 // =================================================== Problem 15 ======================================================
 
