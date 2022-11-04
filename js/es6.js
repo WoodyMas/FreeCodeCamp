@@ -205,6 +205,7 @@
 
 // =================================================== Problem 14 ======================================================
 
+// Use Destructuring Assignment to Pass an Object as a Function's Parameters
 //// Original code
     //// const stats = {
     // //   max: 56.78,
@@ -235,9 +236,26 @@
 
 // =================================================== Problem 15 ======================================================
 
+// Create Strings using Template Literals
 //// Original code
+    // const result = {
+    //   success: ["max-length", "no-amd", "prefer-arrow-functions"],
+    //   failure: ["no-var", "var-on-top", "linebreak"],
+    //   skipped: ["no-extra-semi", "no-dup-keys"]
+    // };
+    // function makeList(arr) {
+    //   // Only change code below this line
+    //   const failureItems = [];
+    //   // Only change code above this line
+
+    //   return failureItems;
+    // }
+
+    // const failuresList = makeList(result.failure);
 
 //// Solution
+
+
 
 // =================================================== Problem 16 ======================================================
 
