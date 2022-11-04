@@ -320,12 +320,30 @@
 
 // =================================================== Problem 18 ======================================================
 
+// Use class Syntax to Define a Constructor Function
 //// Original code
+    // // Only change code below this line
+    //
+    // // Only change code above this line
+    //
+    // const carrot = new Vegetable('carrot');
+    // console.log(carrot.name); // Should display 'carrot'
 
 //// Solution
+    //// Only change code below this line
+    // class Vegetable{
+    //   constructor(name){
+    //     this.name = name;
+    //   }
+    // }
+    // // Only change code above this line
+    //
+    // const carrot = new Vegetable('carrot');
+    // console.log(carrot.name); // Should display 'carrot'
 
 // =================================================== Problem 19 ======================================================
 
+// Use getters and setters to Control Access to an Object
 //// Original code
 
 //// Solution
