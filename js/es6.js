@@ -276,9 +276,20 @@
 
 // =================================================== Problem 16 ======================================================
 
+// Write Concise Object Literal Declarations Using Object Property Shorthand
 //// Original code
+    // const createPerson = (name, age, gender) => {
+    //     // Only change code below this line
+    //     return {
+    //         name: name,
+    //         age: age,
+    //         gender: gender
+    //     };
+    //     // Only change code above this line
+    // };
 
 //// Solution
+    // const createPerson = (name, age, gender) => ({name, age, gender});
 
 // =================================================== Problem 17 ======================================================
 
