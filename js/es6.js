@@ -1,3 +1,5 @@
+                                            /* All ES6 Tutorial Problems Complete */
+
 // =================================================== Problem 1 =======================================================
 
 // Compare Scopes of the var and let Keywords
@@ -602,3 +604,4 @@
     // }).catch(error => {
     //   console.log(error);
     // });
+
