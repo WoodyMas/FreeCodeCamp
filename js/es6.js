@@ -459,9 +459,20 @@
 
 // =================================================== Problem 23 ======================================================
 
+// Use * to Import Everything from a File
 //// Original code
+    //
+    // Only change code above this line
+
+    // stringFunctions.uppercaseString("hello");
+    // stringFunctions.lowercaseString("WORLD!");
 
 //// Solution
+    //import * as stringFunctions from "./string_functions.js";
+    // // Only change code above this line
+    //
+    // stringFunctions.uppercaseString("hello");
+    // stringFunctions.lowercaseString("WORLD!");
 
 // =================================================== Problem 24 ======================================================
 
