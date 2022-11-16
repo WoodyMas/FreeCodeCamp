@@ -345,8 +345,57 @@
 
 // Use getters and setters to Control Access to an Object
 //// Original code
+    // Only change code below this line
+    // // Only change code above this line
+
+    // const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+    // let temp = thermos.temperature; // 24.44 in Celsius
+    // thermos.temperature = 26;
+    // temp = thermos.temperature; // 26 in Celsius
 
 //// Solution
+// Only change code below this line
+
+// class Thermostat{
+
+    //   // Constructor
+    //   constructor(inputTemp) {
+    //     this._temperature = ((inputTemp - 32) * (5/9));
+    //   }
+    //   // Constructor
+
+    //   // Setter and Getter for Fahrenheit temp
+    //   set temperature(inputTemp) {
+    //     this._temperature = inputTemp;
+    //   }
+    //   get temperature(){
+    //     return this._temperature;
+    //   }
+    //   // Setter and Getter for Fahrenheit temp
+
+    //   // Setter and Getter for Celsius temp
+    //   set celsius(inputTemp) {
+
+    //     this._temperature = ((inputTemp - 32) * (5/9));
+    //   }
+    //   get celsius(){
+    //     return celsius(inputTemp);
+    //   }
+
+    //   // Setter and Getter for Celsius temp
+
+
+    // } // End Thermostat class
+
+    // // Only change code above this line
+
+    // const thermos = new Thermostat(76); // Setting in Fahrenheit scale
+    // let temp = thermos.temperature; // 24.44 in Celsius
+    // thermos.temperature = 26;
+    // temp = thermos.temperature; // 26 in Celsius
+    // console.log(thermos.temperature);
+
+
 
 // =================================================== Problem 20 ======================================================
 
