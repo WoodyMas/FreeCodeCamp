@@ -501,18 +501,41 @@
     // // Only change code above this line
     //
     // subtract(7,4);
+
 // =================================================== Problem 26 ======================================================
 
 // Create a JavaScript Promise
 //// Original code
 
 //// Solution
-    //const makeServerRequest = new Promise((resolve, reject) =>{});
+    // const makeServerRequest = new Promise((resolve, reject) =>{});
+
 // =================================================== Problem 27 ======================================================
 
+// Complete a Promise with resolve and reject
 //// Original code
+    //const makeServerRequest = new Promise((resolve, reject) => {
+    //   // responseFromServer represents a response from a server
+    //   let responseFromServer;
+    //
+    //   if(responseFromServer) {
+    //     // Change this line
+    //   } else {
+    //     // Change this line
+    //   }
+    // });
 
 //// Solution
+    //const makeServerRequest = new Promise((resolve, reject) => {
+    //   // responseFromServer represents a response from a server
+    //   let responseFromServer;
+    //
+    //   if(responseFromServer) {
+    //     resolve("We got the data");
+    //   } else {
+    //     reject("Data not received");
+    //   }
+    // });
 
 // =================================================== Problem 28 ======================================================
 
