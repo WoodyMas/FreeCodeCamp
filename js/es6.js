@@ -419,9 +419,26 @@
     // </html>
 // =================================================== Problem 21 ======================================================
 
+// Use export to Share a Code Block
 //// Original code
+    //const uppercaseString = (string) => {
+    //   return string.toUpperCase();
+    // }
+    //
+    // const lowercaseString = (string) => {
+    //   return string.toLowerCase()
+    // }
 
 //// Solution
+    //const uppercaseString = (string) => {
+    //   return string.toUpperCase();
+    // }
+    //
+    // const lowercaseString = (string) => {
+    //   return string.toLowerCase()
+    // }
+    //
+    // export {lowercaseString, uppercaseString};
 
 // =================================================== Problem 22 ======================================================
 
