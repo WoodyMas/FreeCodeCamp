@@ -503,10 +503,11 @@
     // subtract(7,4);
 // =================================================== Problem 26 ======================================================
 
+// Create a JavaScript Promise
 //// Original code
 
 //// Solution
-
+    //const makeServerRequest = new Promise((resolve, reject) =>{});
 // =================================================== Problem 27 ======================================================
 
 //// Original code
