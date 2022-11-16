@@ -442,9 +442,20 @@
 
 // =================================================== Problem 22 ======================================================
 
-//// Original code
+// Reuse JavaScript Code Using import
+    //// Original code
+    //
+    // // Only change code above this line
+    //
+    // uppercaseString("hello");
+    // lowercaseString("WORLD!");
 
 //// Solution
+    //import {uppercaseString, lowercaseString} from './string_functions.js';
+    // // Only change code above this line
+    //
+    // uppercaseString("hello");
+    // lowercaseString("WORLD!");
 
 // =================================================== Problem 23 ======================================================
 
