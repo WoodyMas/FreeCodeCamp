@@ -399,10 +399,24 @@
 
 // =================================================== Problem 20 ======================================================
 
+// Create a Module Script
 //// Original code
+    //<html>
+    //   <body>
+    //     <!-- Only change code below this line -->
+    //
+    //     <!-- Only change code above this line -->
+    //   </body>
+    // </html>
 
 //// Solution
-
+    // <html>
+    //   <body>
+    //     <!-- Only change code below this line -->
+    //     <script type="module" src="index.js"></script>
+    //     <!-- Only change code above this line -->
+    //   </body>
+    // </html>
 // =================================================== Problem 21 ======================================================
 
 //// Original code
