@@ -476,9 +476,16 @@
 
 // =================================================== Problem 24 ======================================================
 
+// Create an Export Fallback with export default
 //// Original code
+    //function subtract(x, y) {
+    //   return x - y;
+    // }
 
 //// Solution
+    //export default function subtract(x, y) {
+    //   return x - y;
+    // }
 
 // =================================================== Problem 25 ======================================================
 
