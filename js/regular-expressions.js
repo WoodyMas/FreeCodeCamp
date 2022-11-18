@@ -19,6 +19,25 @@
     // convertCtoF(30);
 
 // =================================================== Problem 2 =======================================================
+// Reverse a String
+
+// Original Code
+    //function reverseString(str) {
+    //   return str;
+    // }
+    //
+    // reverseString("hello");
+
+// Solution
+    //function reverseString(str) {
+    //   let newStr = [...str].reverse();
+    //   for (let i = 0; i < newStr.length; i++) {
+    //     str = newStr.join('');
+    //   }
+    //   return str;
+    // }
+    //
+    // console.log(reverseString("hello"));
 
 // =================================================== Problem 3 =======================================================
 
