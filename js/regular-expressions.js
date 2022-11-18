@@ -1,4 +1,22 @@
 // =================================================== Problem 1 =======================================================
+// Convert Celsius to Fahrenheit
+
+// Original Code
+    //function convertCtoF(celsius) {
+    //   let fahrenheit;
+    //   return fahrenheit;
+    // }
+    //
+    // convertCtoF(30);
+
+// Solution
+    //function convertCtoF(celsius) {
+    //   let fahrenheit;
+    //   fahrenheit = ((celsius * (9/5)) + 32);
+    //   return fahrenheit;
+    // }
+    //
+    // convertCtoF(30);
 
 // =================================================== Problem 2 =======================================================
 
