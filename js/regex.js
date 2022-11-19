@@ -336,7 +336,15 @@
     // let result = timRegex.test(timStr);
 
 ///////////////////////////////////////////////////// Problem 28 ///////////////////////////////////////////////////////
+// Check for All or None
+    // let favWord = "favorite";
+    // let favRegex = /change/; // Change this line
+    // let result = favRegex.test(favWord);
 
+// Solution
+    // let favWord = "favorite";
+    // let favRegex = /favou?rite/; // Change this line
+    // let result = favRegex.test(favWord);
 
 ///////////////////////////////////////////////////// Problem 29 ///////////////////////////////////////////////////////
 
