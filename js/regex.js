@@ -358,9 +358,23 @@
     // let result = pwRegex.test(sampleWord);
 
 ///////////////////////////////////////////////////// Problem 30 ///////////////////////////////////////////////////////
+// Check For Mixed Grouping of Characters
+    // let myString = "Eleanor Roosevelt";
+    // let myRegex = /False/; // Change this line
+    // let result = false; // Change this line
+    // // After passing the challenge experiment with myString and see how the grouping works
 
+// Solution
+    // let myString = "Eleanor Roosevelt";
+    // let myRegex = /(Franklin|Eleanor) (([A-Z]\.?|[A-Z][a-z]+) )?Roosevelt/;
+    // let result = myRegex.test(myString);
 
 ///////////////////////////////////////////////////// Problem 31 ///////////////////////////////////////////////////////
+// Reuse Patterns Using Capture Groups
+    // let repeatNum = "42 42 42";
+    // let reRegex = /change/; // Change this line
+    // let result = reRegex.test(repeatNum);
+
 
 
 ///////////////////////////////////////////////////// Problem 32 ///////////////////////////////////////////////////////
