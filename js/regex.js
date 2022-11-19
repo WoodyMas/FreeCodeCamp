@@ -315,6 +315,9 @@
 
 ///////////////////////////////////////////////////// Problem 26 ///////////////////////////////////////////////////////
 // Specify Only the Lower Number of Matches
+        // let haStr = "Hazzzzah";
+        // let haRegex = /change/; // Change this line
+        // let result = haRegex.test(haStr);
 
 // Solution
     // let haStr = "Hazzzzah";
