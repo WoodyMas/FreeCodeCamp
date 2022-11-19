@@ -371,14 +371,25 @@
 
 ///////////////////////////////////////////////////// Problem 31 ///////////////////////////////////////////////////////
 // Reuse Patterns Using Capture Groups
+// Use capture groups in reRegex to match a string that consists of only the same number repeated exactly three times separated by single spaces.
     // let repeatNum = "42 42 42";
     // let reRegex = /change/; // Change this line
     // let result = reRegex.test(repeatNum);
 
 // Solution
-
+    // let repeatNum = "42 42 42";
+    // let reRegex = /^(\d+) \1 \1$/;
+    // let result = reRegex.test(repeatNum);
 
 ///////////////////////////////////////////////////// Problem 32 ///////////////////////////////////////////////////////
+// Use Capture Groups to Search and Replace
+
+    // let str = "one two three";
+    // let fixRegex = /change/; // Change this line
+    // let replaceText = ""; // Change this line
+    // let result = str.replace(fixRegex, replaceText);
+
+// Solution
 
 
 ///////////////////////////////////////////////////// Problem 33 ///////////////////////////////////////////////////////
