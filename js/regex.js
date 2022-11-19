@@ -64,11 +64,23 @@
     // let result = twinkleStar; // Change this line
 
 // Solution
-    //let twinkleStar = "Twinkle, twinkle, little star";
+    // let twinkleStar = "Twinkle, twinkle, little star";
     // let starRegex = /twinkle/gi; // Changed
     // let result = twinkleStar.match(starRegex); // Changed
 
 ///////////////////////////////////////////////////// Problem 7 ////////////////////////////////////////////////////////
+// Problem 7 of 33: Match Anything with Wildcard Period
+    // let exampleStr = "Let's have fun with regular expressions!";
+    // let unRegex = /change/; // Change this line
+    // let result = unRegex.test(exampleStr);
+
+// Solution
+    // let exampleStr = "Let's have fun with regular expressions!";
+    // let unRegex = /un./; // Changed
+    // let result = unRegex.test(exampleStr);
+
+
+
 ///////////////////////////////////////////////////// Problem 8 ////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// Problem 9 ////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// Problem 10 ///////////////////////////////////////////////////////
