@@ -53,11 +53,21 @@
     // let result = extractStr; // Change this line
 
 // Solution
-//     let extractStr = "Extract the word 'coding' from this string.";
-//     let codingRegex = /coding/; // Changed
-//     let result = extractStr.match(codingRegex); // Changed
+    //     let extractStr = "Extract the word 'coding' from this string.";
+    //     let codingRegex = /coding/; // Changed
+    //     let result = extractStr.match(codingRegex); // Changed
 
 ///////////////////////////////////////////////////// Problem 6 ////////////////////////////////////////////////////////
+// Problem 6 of 33: Find More Than the First Match
+    // let twinkleStar = "Twinkle, twinkle, little star";
+    // let starRegex = /change/; // Change this line
+    // let result = twinkleStar; // Change this line
+
+// Solution
+    //let twinkleStar = "Twinkle, twinkle, little star";
+    // let starRegex = /twinkle/gi; // Changed
+    // let result = twinkleStar.match(starRegex); // Changed
+
 ///////////////////////////////////////////////////// Problem 7 ////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// Problem 8 ////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////// Problem 9 ////////////////////////////////////////////////////////
