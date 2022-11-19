@@ -347,7 +347,15 @@
     // let result = favRegex.test(favWord);
 
 ///////////////////////////////////////////////////// Problem 29 ///////////////////////////////////////////////////////
+// Positive and Negative Lookahead
+    // let sampleWord = "astronaut";
+    // let pwRegex = /change/; // Change this line
+    // let result = pwRegex.test(sampleWord);
 
+// Solution
+    // let sampleWord = "astronaut";
+    // let pwRegex =  /(?=\w{6})(?=\w*\d{2})/;
+    // let result = pwRegex.test(sampleWord);
 
 ///////////////////////////////////////////////////// Problem 30 ///////////////////////////////////////////////////////
 
