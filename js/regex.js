@@ -391,9 +391,18 @@
 
 // Solution
 // let str = "one two three";
-// let fixRegex = /(\w+)\s(\w+)\s(\w+)/; // Change this line
-// let replaceText = "$3 $2 $1"; // Change this line
-// let result = str.replace(fixRegex, replaceText);
+    // let fixRegex = /(\w+)\s(\w+)\s(\w+)/; // Change this line
+    // let replaceText = "$3 $2 $1"; // Change this line
+    // let result = str.replace(fixRegex, replaceText);
 
 ///////////////////////////////////////////////////// Problem 33 ///////////////////////////////////////////////////////
+// Remove Whitespace from Start and End
 
+// let hello = "   Hello, World!  ";
+// let wsRegex = /change/; // Change this line
+// let result = hello; // Change this line
+
+// Solution
+    // let hello = "   Hello, World!  ";
+    // let wsRegex = /^\s+|\s+$/g; // Change this line
+    // let result = hello.replace(wsRegex, ""); // Change this line
