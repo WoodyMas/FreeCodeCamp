@@ -120,26 +120,38 @@
 // Use Caution When Reinitializing Variables Inside a Loop
 
 // TODO: The following function is supposed to create a two-dimensional array with m rows and n columns of zeroes. Unfortunately, it's not producing the expected output because the row variable isn't being reinitialized (set back to an empty array) in the outer loop. Fix the code so it returns a correct 3x2 array of zeroes, which looks like [[0, 0], [0, 0], [0, 0]].
-function zeroArray(m, n) {
-    // Creates a 2-D array with m rows and n columns of zeroes
-    let newArray = [];
-    let row = [];
-    for (let i = 0; i < m; i++) {
-        // Adds the m-th row into newArray
+// function zeroArray(m, n) {
+//     // Creates a 2-D array with m rows and n columns of zeroes
+//     let newArray = [];
+//     let row = [];
+//     for (let i = 0; i < m; i++) {
+//         // Adds the m-th row into newArray
+//
+//         for (let j = 0; j < n; j++) {
+//             // Pushes n zeroes into the current row to create the columns
+//             row.push(0);
+//         }
+//         // Pushes the current row, which now has n zeroes in it, to the array
+//         newArray.push(row);
+//
+//         // INSERTED: row needed to be reset to an empty array
+//         row = [];
+//     }
+//     return newArray;
+// }
+//
+// let matrix = zeroArray(3, 2);
+// console.log(matrix);
 
-        for (let j = 0; j < n; j++) {
-            // Pushes n zeroes into the current row to create the columns
-            row.push(0);
-        }
-        // Pushes the current row, which now has n zeroes in it, to the array
-        newArray.push(row);
+// Prevent Infinite Loops with a Valid Terminal Condition
 
-        // INSERTED: row needed to be reset to an empty array
-        row = [];
-    }
-    return newArray;
-}
+// The myFunc() function contains an infinite loop because the terminal condition i != 4 will never evaluate to false (and break the looping) - i will increment by 2 each pass, and jump right over 4 since i is odd to start. Fix the comparison operator in the terminal condition so the loop only runs for i less than or equal to 4.
 
-let matrix = zeroArray(3, 2);
-console.log(matrix);
+    // function myFunc() {
+    //   for (let i = 1; i <= 4; i += 2) {
+    //     console.log("Still going!");
+    //   }
+    // }
+    //
+    // myFunc();
 
