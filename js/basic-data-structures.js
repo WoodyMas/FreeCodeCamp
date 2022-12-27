@@ -156,3 +156,26 @@
     // }
     //
     // console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+
+
+// Create complex multi-dimensional arrays
+
+
+// We have defined a variable, myNestedArray, set equal to an array. Modify myNestedArray, using any combination of strings, numbers, and booleans for data elements, so that it has exactly five levels of depth (remember, the outer-most array is level 1). Somewhere on the third level, include the string deep, on the fourth level, include the string deeper, and on the fifth level, include the string deepest.
+
+// let myNestedArray = [
+//   // Only change code below this line
+//   ['unshift',
+//     [23,
+//       'deep',
+//       ['deeper',
+//         ['deepest']
+//       ]
+//     ],
+//     true,
+//     false,
+//     123,
+//     'Again'
+//   ]
+//   // Only change code above this line
+// ];
