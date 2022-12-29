@@ -152,6 +152,12 @@
     //
     // confirmEnding("The prophecy is true!", "true!");
 
+// My Solution re-factored
+
+    //function confirmEnding(str, target) {
+    //   return (str.substring(str.length-target.length) === target);
+    // }
+
 // =================================================== Problem 7 =======================================================
 
 // =================================================== Problem 8 =======================================================
