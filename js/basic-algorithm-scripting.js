@@ -139,6 +139,19 @@
 
 // =================================================== Problem 6 =======================================================
 
+// Confirm the Ending
+
+// My Solution
+
+    //function confirmEnding(str, target) {
+    //   let count = target.length;
+    //   let strEval = str.substring(str.length-count);
+    //   console.log(strEval === target);
+    //   return strEval === target;
+    // }
+    //
+    // confirmEnding("The prophecy is true!", "true!");
+
 // =================================================== Problem 7 =======================================================
 
 // =================================================== Problem 8 =======================================================
