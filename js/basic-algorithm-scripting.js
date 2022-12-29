@@ -80,21 +80,21 @@
 // My first solution
 
     ////// Count letters of each word and mutate word array to new length array
-    function countLetters(str) {
-      str = str.split(' ');
-      for (let i = 0; i < str.length; i++) {
-        str[i] = str[i].length;
-      }
-      return str;
-    } // end countLetters
-
-    ////// Find the max value of the word length
-    function findLongestWordLength(str) {
-      str = countLetters(str);
-      return (Math.max(...str));
-    }
-
-    console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
+    // function countLetters(str) {
+    //   str = str.split(' ');
+    //   for (let i = 0; i < str.length; i++) {
+    //     str[i] = str[i].length;
+    //   }
+    //   return str;
+    // } // end countLetters
+    //
+    // ////// Find the max value of the word length
+    // function findLongestWordLength(str) {
+    //   str = countLetters(str);
+    //   return (Math.max(...str));
+    // }
+    //
+    // console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
 
 // Better solution
 
