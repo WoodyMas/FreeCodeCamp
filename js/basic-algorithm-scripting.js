@@ -71,6 +71,46 @@
 
 // =================================================== Problem 4 =======================================================
 
+// Find the Longest Word in a String
+
+// Return the length of the longest word in the provided sentence.
+//
+// Your response should be a number.
+
+// My first solution
+
+    ////// Count letters of each word and mutate word array to new length array
+    function countLetters(str) {
+      str = str.split(' ');
+      for (let i = 0; i < str.length; i++) {
+        str[i] = str[i].length;
+      }
+      return str;
+    } // end countLetters
+
+    ////// Find the max value of the word length
+    function findLongestWordLength(str) {
+      str = countLetters(str);
+      return (Math.max(...str));
+    }
+
+    console.log(findLongestWordLength("The quick brown fox jumped over the lazy dog"));
+
+// Better solution
+
+    //function findLongestWordLength(str) {
+    //   let words = str.split(' ');
+    //   let maxLength = 0;
+    //
+    //   for (let i = 0; i < words.length; i++) {
+    //     if (words[i].length > maxLength) {
+    //       maxLength = words[i].length;
+    //     }
+    //   }
+    //
+    //   return maxLength;
+    // }
+
 // =================================================== Problem 5 =======================================================
 
 // =================================================== Problem 6 =======================================================
