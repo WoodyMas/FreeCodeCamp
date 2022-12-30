@@ -318,6 +318,44 @@
 
 // =================================================== Problem 13 =======================================================
 
+// Falsy Bouncer
+
+// Remove all falsy values from an array. Return a new array; do not mutate the original array.
+//
+// Falsy values in JavaScript are false, null, 0, "", undefined, and NaN.
+//
+// Hint: Try converting each value to a Boolean.
+
+// My Solution
+
+    // function bouncer(arr) {
+    //     let badCondition;
+    //     let newArr = [];
+    //     for (let i = 0; i < arr.length; i++) {
+    //         badCondition =
+    //             typeof arr[i] === "undefined"
+    //             || arr[i] === false
+    //             || arr[i] === 0
+    //             || arr[i] === ""
+    //             || arr[i] === null
+    //             || typeof arr[i] === "number" && isNaN(arr[i]);
+    //         if (!badCondition) {
+    //             newArr.push(arr[i]);
+    //         }
+    //     }
+    //     console.log(newArr);
+    //     return newArr;
+    // }
+
+    // let testArr = [null, NaN, 1, 2, undefined];
+    // console.log(isNaN(testArr[1]));
+
+    // bouncer([7, "ate", "", false, 9]);
+    // bouncer([null, NaN, 1, 2, undefined]);
+
+
+
+
 // =================================================== Problem 14 =======================================================
 
 // =================================================== Problem 15 =======================================================
