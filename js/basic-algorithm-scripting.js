@@ -206,6 +206,49 @@
 
 // =================================================== Problem 9 =======================================================
 
+// Finders Keepers
+
+// Create a function that looks through an array arr and returns the first element in it that passes a 'truth test'. This means that given an element x, the 'truth test' is passed if func(x) is true. If no element passes the test, return undefined.
+
+// My Solution
+// function findElement(arr, func) {
+//   let num = 0;
+//   //return num;
+//   for (let i = 0; i < arr.length; i++) {
+//     if (func(arr[i])){
+//       console.log(arr[i]);
+//       return arr[i];
+//     }
+//   }
+// } // end findElement
+
+// refactored solution of mine
+// function findElement(arr, func) {
+//     for (let i =0; i < arr.length; i++) {
+//         if (func(arr[i])) {
+//             return arr[i];
+//         }
+//     }
+// } // End refactored findElement
+//
+// // slightly related solution
+// //// Find all elements that satisfy a condition
+// function findAllElements(arr, func) {
+//     let successArr = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (func(arr[i])) {
+//             successArr.push(arr[i]);
+//         }
+//     }
+//     console.log(successArr);
+// } // end findAllElements
+//
+//
+//
+// findElement([1, 2, 3, 4], num => num % 2 === 0);
+//
+// findAllElements(["feliz", "wow", "simple", "um", "little", "downed"], word => word.length > 4);
+
 // =================================================== Problem 10 =======================================================
 
 // =================================================== Problem 11 =======================================================
