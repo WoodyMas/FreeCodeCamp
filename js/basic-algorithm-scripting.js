@@ -268,6 +268,28 @@
 
 // =================================================== Problem 11 =======================================================
 
+// Title Case a Sentence
+
+// Return the provided string with the first letter of each word capitalized. Make sure the rest of the word is in lower case.
+//
+// For the purpose of this exercise, you should also capitalize connecting words like the and of.
+
+// My Solution
+
+    // function titleCase(str) {
+    //   str = str.split(' ');
+    //   for (let i = 0; i < str.length; i++) {
+    //     let strSub = str[i].substring();
+    //     str[i] = strSub[0].toUpperCase() + str[i].substring(1).toLowerCase();
+    //   }
+    //   str = str.join(' ');
+    //   return str;
+    // }
+    //
+    // titleCase("I'm a little tea pot");
+    // console.log(titleCase("Don't lose your confidence if you slip,\n be greatful for a pleasant trip,\n and pick yourself up, \n dust yourself off,\n and start all over again!"));
+
+
 // =================================================== Problem 12 =======================================================
 
 // =================================================== Problem 13 =======================================================
