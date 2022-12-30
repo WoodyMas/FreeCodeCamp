@@ -160,7 +160,49 @@
 
 // =================================================== Problem 7 =======================================================
 
+// Repeat a String Repeat a String
+
+// Repeat a given string str (first argument) for num times (second argument). Return an empty string if num is not a positive number. For the purpose of this challenge, do not use the built-in .repeat() method.
+
+// My Solution
+
+    //function repeatStringNumTimes(str, num) {
+    //   let repeatArr = [];
+    //   for (let i = 0; i < num; i++) {
+    //     repeatArr.push(str);
+    //   }
+    //   repeatArr = repeatArr.join('');
+    //
+    //   return repeatArr;
+    // }
+    //
+    // repeatStringNumTimes("abc", 3);
+
+
+
 // =================================================== Problem 8 =======================================================
+
+// Truncate a String
+
+// My Solution
+// function truncateString(str, num) {
+
+//   if (typeof num === "number" && num <= str.length-1) {
+//     str = str.substring(0, num) + "...";
+//   } else {
+//     return str;
+//   }
+//   console.log(str);
+//   return str;
+// }
+
+// My Solution refactored
+
+// function truncateString(str, num) {
+// return (num < str.length) ? str.substring(0, num) + "..." : str;
+// }
+
+// truncateString("A-tisket a-tasket A green and yellow basket", "A-tisket a-tasket A green and yellow basket".length);
 
 // =================================================== Problem 9 =======================================================
 
