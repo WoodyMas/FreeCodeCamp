@@ -251,6 +251,21 @@
 
 // =================================================== Problem 10 =======================================================
 
+// Boo who
+
+// Check if a value is classified as a boolean primitive. Return true or false.
+//
+// Boolean primitives are true and false.
+
+// My Solution
+
+    // function booWho(bool) {
+    //   return typeof bool === "boolean";
+    // }
+    //
+    // booWho(null);
+
+
 // =================================================== Problem 11 =======================================================
 
 // =================================================== Problem 12 =======================================================
