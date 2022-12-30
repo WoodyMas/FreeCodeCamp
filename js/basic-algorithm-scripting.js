@@ -353,10 +353,40 @@
     // bouncer([7, "ate", "", false, 9]);
     // bouncer([null, NaN, 1, 2, undefined]);
 
-
-
-
 // =================================================== Problem 14 =======================================================
+
+// Where do I Belong
+
+// Return the lowest index at which a value (second argument) should be inserted into an array (first argument) once it has been sorted. The returned value should be a number.
+//
+// For example, getIndexToIns([1,2,3,4], 1.5) should return 1 because it is greater than 1 (index 0), but less than 2 (index 1).
+//
+// Likewise, getIndexToIns([20,3,5], 19) should return 2 because once the array has been sorted it will look like [3,5,20] and 19 is less than 20 (index 2) and greater than 5 (index 1).
+
+// My Awful Solution
+
+    //function getIndexToIns(arr, num) {
+    //   let midVal = 0;
+    //   let newArr = [];
+    //   for (let i = 0; i < arr.length; i++) {
+    //     midVal = num;
+    //     if (midVal > arr[i]) {
+    //       arr.splice(i+1, 0, midVal);
+    //       break;
+    //         }
+    //       }
+    //     newArr = arr.sort(function(a, b) {
+    //       return a - b
+    //     });
+    //   console.log((newArr.indexOf(num) !== -1) ? newArr.indexOf(num) : 0);
+    //   console.log(newArr);
+    //   return (newArr.indexOf(num) !== -1) ? newArr.indexOf(num) : 0;
+    // }
+    //
+    // getIndexToIns([40, 60], 50);
+    // getIndexToIns([30, 12, 50, 122], 45);
+    // getIndexToIns([2, 5, 10], 15);
+    // getIndexToIns([], 1);
 
 // =================================================== Problem 15 =======================================================
 
