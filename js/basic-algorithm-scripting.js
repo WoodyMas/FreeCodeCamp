@@ -420,6 +420,25 @@
 
 // =================================================== Problem 16 =======================================================
 
+// Chunky Monkey
+
+// Write a function that splits an array (first argument) into groups the length of size (second argument) and returns them as a two-dimensional array.
+
+
+// Solution
+    // function chunkArrayInGroups(arr, size) {
+    //     // This will be the returned array
+    //     const newArr = [];
+    //     // set i = 0, as long as it's less than arr.length, i accumulates size (limit);
+    //     for (let i = 0; i < arr.length; i += size) {
+    //         // newArr gets the value of arr[i] and limits to i+size
+    //         newArr.push(arr.slice(i, i+size));
+    //     }
+    //     return newArr;
+    // }
+    //
+    // console.log(chunkArrayInGroups(["a", "b", "c", "d"], 1));
+
 // =================================================== Problem 17 =======================================================
 
 // =================================================== Problem 18 =======================================================
