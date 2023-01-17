@@ -400,6 +400,23 @@
 //
 // Lastly, ["Alien", "line"], should return true because all of the letters in line are present in Alien.
 
+// Solution **
+
+    // function mutation(arr) {
+    //   // lowercase second array argument to compare w first array arg
+    //   const test = arr[1].toLowerCase();
+    //   // lowercase first array argument to compare w second array arg
+    //   const target = arr[0].toLowerCase();
+    //   // access second arg length and iterate thru
+    //   for (let i = 0; i < test.length; i++) {
+    //     // check if target (first arg) has an existing index with the test array (if it doesn't it will return -1)
+    //     if (target.indexOf(test[i]) < 0) return false;
+    //   }
+    //   return true;
+    // }
+    //
+    // mutation(["hello", "hey"]);
+
 
 // =================================================== Problem 16 =======================================================
 
